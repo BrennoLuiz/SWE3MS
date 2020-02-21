@@ -1,22 +1,72 @@
+<!DOCTYPE html>
+<!---- This is where the HTML begins the simple order of Html>Head>Body.
+-->
 <html>
     <head>
-        <title>Star Wars: Episode III - Memorable Moments</title>
+        <title>Brenno's Webpage</title>
+        <!-- This part I use basic CSS, for the commands of changing the color of the website background and font.
+        -->
         <style>
 
             body {
-                background: blue;
-                color: black;
+                background: black;
+                color: white;
             }
 
         </style>
     </head>
     <body>
-        <h1>Star Wars: Episode III - Memorable Moments</h1>
+        <h1>Brenno's Webpage</h1>
 
-        <h2>Anakin saying "This is Where the Fun Begins"</h2>
+        <img src="image/family.jpg" alt="Me and my family">
+        
+        <p>Hi, I'm Brenno and this is my basic project website, where I shall continously updating untill I see fit.
+            Most of the work done around here is solo, and it's an learning device to upgrade my HTML, CSS and Java
+            knowledge and practice.
+        </p>
+        <p>I shall input various ways of code in this page just for the sake of testing,
+            so don't worry if the page suddenly freaks out or anything, it's all in the
+            plan ;)
+        </p>
+        
+        
+<!---- In the Objectives Part, I tried to use the Unordened List and Ordened that use the (<ul> Unordened/<ol> Ordened).
+    -->
+        <h2>Objetives</h2>
+        <ul>
+            <li>Learn more about coding in general</li>
+            <li>Practice what I've learned</li>
+            <li>Have fun!</li>
+        </ul>
+
+        <h3>What I am trying to learn</h3>
+        <ol>
+            <li>HTML/HTML5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Ruby on Rails?</li>
+        </ol>
+
+        <p>So far I learned how to operate Git and GitHub and to use my WSL Ubuntu to manually access files and alter them.</p>
+        
+        <!-- Time to use the Form element and Radio Buttons, check it out!
+        -->
+       <form action="/submit-anything">
+        <input type="text" placeholder="I don't know what to put here" required>
+        <button type="submit">Submit</button>
+        <label for "luke"><input id="luke" type="radio" name="luke-leia-han-chewie" value="luke"> Luke Skywalker</label>
+        <label for "leia"><input id="leia" type="radio" name="luke-leia-han-chewie" value="leia"> Princess Leia</label>
+        <label for "han"><input id="han" type="radio" name="luke-leia-han-chewie" value="han"> Han Solo</label>
+        <label for "chewie"><input id="chewie" type="radio" name="luke-leia-han-chewie" value="luke"> Chewbacca</label><br>
+        
+        <label for "boba"><input id="boba" type="checkbox" name="mandalorian" value="boba"> Boba Fett</label>
+        <label for "jango"><input id="jango" type="checkbox" name="mandalorian" value="jango"> Jango Fett</label>
+        <label for "din"><input id="din" type="checkbox" name="mandalorian" value="din"> Din Djarin</label><br>
+
+        <h4>As Anakin Skywalker once said in Episode III: "This is Where the Fun Begins"</h4>
         <img src="image/anakin.jpg" alt="Anakin"
         >
-
+    </form>
         <p>Page made by Deuce using VSCode lmao</p>
     </body>
 </html>
